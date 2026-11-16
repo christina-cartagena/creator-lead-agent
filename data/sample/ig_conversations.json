@@ -1,0 +1,16 @@
+{
+  "_note": "Fictional. Same shape as GET /{ig-user-id}/conversations?platform=instagram&fields=participants,messages{id,from,message,created_time}",
+  "me": "yourhandle",
+  "data": [
+    {"id": "c1", "messages": {"data": [
+      {"id": "m11", "from": {"username": "fernwaycoffee"}, "created_time": "2026-11-09T15:03:00+0000",
+       "message": "omg yes we'd love to chat! what's your rate for one reel + raw footage?"},
+      {"id": "m10", "from": {"username": "yourhandle"}, "created_time": "2026-11-07T13:00:00+0000",
+       "message": "Hi Fernway team! Saw your callout..."}
+    ]}},
+    {"id": "c2", "messages": {"data": [
+      {"id": "m21", "from": {"username": "randomfan22"}, "created_time": "2026-11-09T18:20:00+0000",
+       "message": "love your videos!!"}
+    ]}}
+  ]
+}

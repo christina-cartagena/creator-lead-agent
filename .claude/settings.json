@@ -1,0 +1,49 @@
+{
+  "enabledMcpjsonServers": ["tracker"],
+  "permissions": {
+    "allow": [
+      "mcp__tracker__pipeline_status",
+      "mcp__tracker__check_brand",
+      "mcp__tracker__add_prospect",
+      "mcp__tracker__screen_and_match",
+      "mcp__tracker__list_prospects",
+      "mcp__tracker__get_portfolio_item",
+      "mcp__tracker__save_draft",
+      "mcp__tracker__record_replies",
+      "mcp__tracker__conversation",
+      "mcp__tracker__followups_due",
+      "Bash(python -m agent status)",
+      "Bash(python -m agent screen)",
+      "Bash(python -m agent match)",
+      "Bash(python -m agent followups*)",
+      "Bash(python -m agent sync*)",
+      "Bash(python -m agent graph*)",
+      "Bash(python -m pytest*)",
+      "WebSearch",
+      "WebFetch",
+      "Read(config/**)",
+      "Read(data/**)"
+    ],
+    "deny": [
+      "Read(.env)",
+      "Read(config/creator.json.secrets)",
+      "Bash(curl*)",
+      "Bash(sqlite3*)",
+      "Edit(data/leads.db)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [{"type": "command", "command": "python .claude/hooks/guard_send.py"}]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "mcp__tracker__.*",
+        "hooks": [{"type": "command", "command": "python .claude/hooks/audit_log.py"}]
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_note": "Fictional. Same shape Claude passes in after reading Gmail through a Gmail MCP connector.",
+  "messages": [
+    {"id": "18f2a01", "from": "Dana at Glow Theory <collabs@glowtheoryskin.example>", "date": "2026-11-09T14:12:00Z",
+     "snippet": "Hi! Loved the night routine reel. Can you send over your rates for 3 videos? We have budget for Q1."},
+    {"id": "18f2a07", "from": "Copper Kettle <shop@copperkettle.example>", "date": "2026-11-09T16:40:00Z",
+     "snippet": "Thanks for reaching out. We're not taking on creators right now, maybe circle back next quarter."},
+    {"id": "18f2a0c", "from": "Newsletter <news@somestore.example>", "date": "2026-11-09T17:00:00Z",
+     "snippet": "Our biggest sale of the year starts now"}
+  ]
+}

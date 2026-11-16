@@ -1,0 +1,30 @@
+{
+  "_note": "Fictional sample portfolio. Copy to portfolio.json and replace with your real pieces.",
+  "items": [
+    {"id": "skin-routine-reel", "title": "Night skincare routine reel", "niche": "skincare",
+     "tags": ["skincare", "serum", "routine", "before", "after", "beauty"],
+     "format": "reel", "url": "https://example.com/portfolio/skin-routine",
+     "result": "Brand reused it as a paid ad for 6 weeks"},
+    {"id": "coffee-morning", "title": "Slow morning coffee ritual", "niche": "coffee",
+     "tags": ["coffee", "morning", "routine", "kitchen", "cozy"],
+     "format": "reel", "url": "https://example.com/portfolio/coffee-morning", "result": ""},
+    {"id": "lunchbox-packing", "title": "Packing a kids lunchbox, real mom edition", "niche": "kids food",
+     "tags": ["kids", "lunchbox", "snacks", "family", "mom", "food"],
+     "format": "tiktok", "url": "https://example.com/portfolio/lunchbox", "result": "Top-3 organic post for the brand that month"},
+    {"id": "dog-walk-demo", "title": "Testing a harness on a stubborn dog", "niche": "pets",
+     "tags": ["dog", "pets", "harness", "demo", "funny"],
+     "format": "reel", "url": "https://example.com/portfolio/dog-walk", "result": ""},
+    {"id": "try-on-haul", "title": "Honest try-on haul, 4 sizes", "niche": "apparel",
+     "tags": ["haul", "swimwear", "fit", "apparel", "sustainable", "recycled", "sizes"],
+     "format": "reel", "url": "https://example.com/portfolio/try-on", "result": ""},
+    {"id": "hair-before-after", "title": "7-day hair before and after", "niche": "haircare",
+     "tags": ["hair", "haircare", "before", "after", "routine"],
+     "format": "reel", "url": "https://example.com/portfolio/hair-7-day", "result": "1.2M views organic"},
+    {"id": "cozy-candle-night", "title": "Cozy night in, candle edition", "niche": "home fragrance",
+     "tags": ["candle", "cozy", "home", "holiday", "scent"],
+     "format": "reel", "url": "https://example.com/portfolio/cozy-night", "result": ""},
+    {"id": "weeknight-dinner", "title": "20-minute weeknight dinner", "niche": "kitchen",
+     "tags": ["cooking", "kitchen", "dinner", "cookware", "herbs", "home"],
+     "format": "tiktok", "url": "https://example.com/portfolio/weeknight-dinner", "result": ""}
+  ]
+}

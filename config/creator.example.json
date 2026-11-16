@@ -1,0 +1,25 @@
+{
+  "_note": "Copy to creator.json and fill in. creator.json is gitignored.",
+  "name": "Sam",
+  "instagram": "@yourhandle",
+  "email": "you@example.com",
+  "portfolio_url": "https://example.com/portfolio",
+  "niches": ["skincare", "coffee", "kids food", "pets", "kitchen", "haircare", "home fragrance", "apparel"],
+  "ideal_brand": {
+    "followers_min": 5000,
+    "followers_max": 250000,
+    "signals": [
+      "recent product launch",
+      "posted a UGC or creator callout",
+      "feed is mostly product shots with no people",
+      "reposting customer videos (they want this content and are getting it for free)"
+    ],
+    "avoid": ["alcohol", "supplements with medical claims", "MLM", "brands with no website"]
+  },
+  "voice": {
+    "tone": "warm, direct, a little playful; sounds like a person, not an agency",
+    "sign_off": "Talk soon",
+    "never": ["em dashes", "\"I hope this finds you well\"", "more than one link", "attachments in a first DM"]
+  },
+  "daily_limits": {"new_prospects": 15, "drafts": 10}
+}

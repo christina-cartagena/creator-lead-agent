@@ -1,0 +1,9 @@
+data/leads.db
+data/audit.log
+data/runs.log
+config/creator.json
+config/portfolio.json
+.env
+__pycache__/
+.pytest_cache/
+docs/screenshots/raw/
